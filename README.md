@@ -10,4 +10,4 @@ Nodemon </br>
 navigate to the directory and run</br> 
 ```npm install```</br>
 Executing progrm with</br>
-```nom start```
+```npm start```
