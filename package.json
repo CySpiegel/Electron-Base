@@ -4,11 +4,16 @@
   "description": "Learning Electron",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "watch": "nodemon -exec electron ."
   },
-  "author": "Matthew Stroble",
+  "repository": "https://github.com/CySpiegel/Electron-Base.git",
+  "keywords": [ "Electron" ],
+  "author": "Guthub, CySpiegel, Matthew Stroble",
   "license": "UNLICENSED",
   "devDependencies": {
-    "electron": "^13.1.7"
-  }
+    "electron": "^13.1.7",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {}
 }
