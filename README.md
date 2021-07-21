@@ -10,4 +10,7 @@ Nodemon </br>
 navigate to the directory and run</br> 
 ```npm install```</br>
 Executing progrm with</br>
-```npm start```
+```npm start```</br>
+Running in development mode to auto relaunch</b>
+```npm run watch``` </br>
+
