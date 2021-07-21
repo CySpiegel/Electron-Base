@@ -7,6 +7,7 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    backgroundColor: '#FFF',
     width: 1000,
     height: 600,
     webPreferences: {
@@ -19,7 +20,7 @@ function createWindow () {
   mainWindow.loadFile('src/index.html')
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
