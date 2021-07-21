@@ -4,6 +4,8 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 
+console.log('Checking Ready', app.isReady());
+
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
@@ -17,7 +19,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('src/index.html')
+  mainWindow.loadFile('renderer/main.html')
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
@@ -27,6 +29,7 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
+  console.log("App is ready!")
   createWindow()
 
   app.on('activate', function () {
