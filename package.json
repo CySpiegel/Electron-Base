@@ -1,7 +1,7 @@
 {
   "name": "electron-base",
   "version": "1.0.0",
-  "description": "Learning Electron",
+  "description": "A base Electron starter templete for future electron projects",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
