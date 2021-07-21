@@ -8,6 +8,6 @@ Nodemon </br>
 
 # Instructions
 navigate to the directory and run</br> 
-```npm install```
-Executing progrm with
+```npm install```</br>
+Executing progrm with</br>
 ```nom start```
