@@ -7,4 +7,7 @@ Electron </br>
 Nodemon </br>
 
 # Instructions
-navigate to the directory and run npm install
+navigate to the directory and run</br> 
+```npm install```
+Executing progrm with
+```nom start```
