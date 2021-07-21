@@ -8,12 +8,16 @@
     "watch": "nodemon -exec electron ."
   },
   "repository": "https://github.com/CySpiegel/Electron-Base.git",
-  "keywords": [ "Electron" ],
+  "keywords": [
+    "Electron"
+  ],
   "author": "Guthub, CySpiegel, Matthew Stroble",
   "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^13.1.7",
     "nodemon": "^2.0.12"
   },
-  "dependencies": {}
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  }
 }
